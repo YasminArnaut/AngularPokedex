@@ -1,3 +1,7 @@
+
+<img src="![image](https://user-images.githubusercontent.com/98672747/167516249-ce3fa705-4f5e-46b7-8630-7c10635a5a9d.png)"/>
+
+
 # AngularPokedex
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
