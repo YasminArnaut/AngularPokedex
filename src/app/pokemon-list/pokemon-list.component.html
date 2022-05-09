@@ -1,0 +1,14 @@
+<img
+  src="https://camo.githubusercontent.com/915b5d6efddba36588a92314ff10d518eb0e8eaf0a522c6212d54ad7a679a3e0/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3933393537333131333832303135313933302f3935343930303634373635393035373135342f5961736d696e2e676966"
+  width="80"
+/>
+<div class="pokemon-list">
+  <app-pokemon-card
+    *ngFor="let pokemon of pokemonService.pokemons; index as i"
+    [pokemon]="pokemon.name"
+    [numero]="i + 1"
+  ></app-pokemon-card>
+</div>
+<!--
+<div *ngFor="let pokemon of pokemons">Pokemon: {{ pokemon }}</div>
+-->
